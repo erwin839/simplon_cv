@@ -1,0 +1,112 @@
+body {
+    background-color: aliceblue;
+}
+
+#nav {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 19%;
+    height: 100%; 
+    background-color: aquamarine;
+    font-family: 'Saira Extra Condensed';
+}
+
+#profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 75px;
+    border: 10px solid rgba(255,255,255,.5);
+}
+
+#menu {
+  margin-top: 70%;
+}
+
+#menu li {
+    list-style-type: none;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #bd5d38;
+    font-size: 25px;
+}
+
+/*Tout le contenu de la page*/
+#content {
+    width: 80%;
+    margin-left: 20%;
+}
+
+/*Partie grand titre*/
+.gTitre {
+    font-size: 40px;
+    font-family: cursive, 'Saira Extra Condensed',serif;
+}
+
+.soutitre {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 1.15rem;
+    color: #343a40;
+}
+
+.desc_soustitre {
+    font-family: 'Open Sans',serif;
+    color: #868e96;
+}
+
+.desc_b_annee {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.desc_annee {
+    text-align: right;
+    color: #bd5d38 !important;
+}
+
+/*FIN PARTIE DESCRIPTION GRAND TITRE*/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 0px;
+    color: #343a40;
+}
+
+h3 {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+p {
+    font-size: 20px;
+}
+
+#adress {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 20px;
+    color: #343a40;
+}
+
+#adress a {
+    text-decoration: none;
+}
+
+.desc_perso {
+    margin-top: 50px;   
+}
+
